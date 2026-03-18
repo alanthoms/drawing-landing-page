@@ -49,7 +49,7 @@ const Landing = () => {
             Doodlog
           </h1>
           <LiquidEther
-            colors={["#022C22", "#00FF66", "#34D399"]}
+            colors={["#022C22", "#3300ff", "#03ecfc"]}
             mouseForce={20}
             cursorSize={100}
             isViscous
@@ -71,14 +71,14 @@ const Landing = () => {
 
           <div className="container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5">
             <div className="flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;">
-              <div className="space-y-5 hidden md:block text-green-200">
+              <div className="space-y-5 hidden md:block text-blue-200">
                 <p> Sketch. Share. Improve.</p>
-                <p className="subtitle text-3xl -mb-2 text-green-500">
+                <p className="subtitle text-3xl -mb-2 text-blue-500">
                   Build your creative streak
                 </p>
               </div>
               <div>
-                <p className="subtitle text-3xl -mb-2 text-green-300">
+                <p className="subtitle text-3xl -mb-2 text-blue-300">
                   Make it a habit
                 </p>
               </div>
