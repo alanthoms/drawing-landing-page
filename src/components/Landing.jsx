@@ -42,22 +42,16 @@ const Landing = () => {
     <div className="py-10">
       <div>
         <section className="absolute inset-0 w-full h-full">
-          <h1
-            id="title-text"
-            className="title absolute inset-x-0 top-1/2 -translate-y-1/2 z-[200] text-2xl md:text-[13vw] leading-none text-center text-white tracking-tight pointer-events-none"
-          >
-            Doodlog
-          </h1>
           <LiquidEther
             colors={["#022C22", "#3300ff", "#03ecfc"]}
-            mouseForce={20}
+            mouseForce={10}
             cursorSize={100}
             isViscous
             viscous={30}
             iterationsViscous={32}
             iterationsPoisson={32}
             resolution={0.5}
-            isBounce={false}
+            isBounce={true}
             autoDemo
             autoSpeed={0.5}
             autoIntensity={2.2}
@@ -68,6 +62,12 @@ const Landing = () => {
             color1="#00FF66"
             color2="#34D399"
           />
+          <h1
+            id="title-text"
+            className="title absolute inset-x-0 top-1/2 -translate-y-1/2 z-[200] text-2xl md:text-[13vw] leading-none text-center text-white tracking-tight  duration-300 ease-in-out  text-shadow-[0_0_40px_rgba(255,255,255,0.2)]"
+          >
+            Doodlog
+          </h1>
 
           <div className="container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5">
             <div className="flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;">
