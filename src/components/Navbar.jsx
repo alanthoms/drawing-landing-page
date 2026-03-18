@@ -3,12 +3,12 @@ import { Link, useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "About", path: "/profile" },
+    { name: "About", path: "/cats" },
     { name: "Login", path: "/login" },
     { name: "Signup", path: "/signup" },
   ];
   const linkStyle =
-    "transition-all duration-300  hover:scale-120 px-2 hover:px-5";
+    "transition-all duration-300 text-xl  px-2 hover:px-5 hover:text-shadow-[0_0_40px_rgba(255,255,255,0.4)] font-sans";
 
   return (
     <div>

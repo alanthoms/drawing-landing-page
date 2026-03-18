@@ -6,6 +6,8 @@
 
 body {
   background-color: rgb(15, 17, 15);
+  color: white;
+  overscroll-behavior: none;
 }
 
 #title-text {

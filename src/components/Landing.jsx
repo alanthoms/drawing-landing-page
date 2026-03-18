@@ -43,7 +43,7 @@ const Landing = () => {
       <div>
         <section className="absolute inset-0 w-full h-full">
           <LiquidEther
-            colors={["#022C22", "#3300ff", "#03ecfc"]}
+            colors={["#02022b", "#3300ff", "#03ecfc"]}
             mouseForce={10}
             cursorSize={100}
             isViscous
@@ -64,7 +64,7 @@ const Landing = () => {
           />
           <h1
             id="title-text"
-            className="title absolute inset-x-0 top-1/2 -translate-y-1/2 z-[200] text-2xl md:text-[13vw] leading-none text-center text-white tracking-tight  duration-300 ease-in-out  text-shadow-[0_0_40px_rgba(255,255,255,0.2)]"
+            className="title absolute inset-x-0 top-1/2 -translate-y-1/2 -mt-10 z-[200] text-2xl md:text-[13vw] leading-none text-center text-white tracking-tight  duration-300 ease-in-out  text-shadow-[0_0_40px_rgba(255,255,255,0.2)]"
           >
             Doodlog
           </h1>
