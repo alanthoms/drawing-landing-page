@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "About", path: "/cats" },
+    { name: "Profile-Picture-Generator", path: "/profile" },
     { name: "Login", path: "/login" },
     { name: "Signup", path: "/signup" },
   ];
